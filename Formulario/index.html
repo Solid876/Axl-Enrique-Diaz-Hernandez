@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio Telefónico</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Directorio Telefónico</h1>
+
+    <form id="directorio-form">
+        <label for="nombres">Nombre(s):</label>
+        <input type="text" id="nombres" name="nombres"><br><br>
+
+        <label for="apellidos">Apellido(s):</label>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="alias">Alias:</label>
+        <input type="text" id="alias" name="alias"><br><br>
+
+        <button type="button" onclick="guardarInformacion()">Guardar Información</button>
+    </form>
+
+    <script>
+        function guardarInformacion() {
+            alert("¡La información ha sido guardada!");
+            document.getElementById('nombres').value = '';
+            document.getElementById('apellidos').value = '';
+            document.getElementById('telefono').value = '';
+            document.getElementById('correo').value = '';
+            document.getElementById('alias').value = '';
+        }
+    </script>
+
+</body>
+</html>
