@@ -1,0 +1,35 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"dragonball"},
+{"type":"table","name":"characters","database":"dragonball","data":
+[
+{"id":"1","user_id":"1","name":"Changuito","race":"Saiyan","level":"1","strength":"50","speed":"50","endurance":"50","experience":"0","avatar":null}
+]
+}
+,{"type":"table","name":"character_transformations","database":"dragonball","data":
+[
+
+]
+}
+,{"type":"table","name":"tournaments","database":"dragonball","data":
+[
+
+]
+}
+,{"type":"table","name":"tournament_participants","database":"dragonball","data":
+[
+
+]
+}
+,{"type":"table","name":"transformations","database":"dragonball","data":
+[
+
+]
+}
+,{"type":"table","name":"users","database":"dragonball","data":
+[
+{"id":"1","name":"Axl Enrique Diaz Hernandez","email":"axlenriquediazh22.ce84@dgeti.sems.gob.mx","password":"Hola12345","avatar":""},
+{"id":"2","name":"Pedro Ramirez Juarez","email":"peter777@gmail.com","password":"Pedro9999","avatar":""}
+]
+}
+]

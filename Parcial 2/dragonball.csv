@@ -1,0 +1,9 @@
+"id","user_id","name","race","level","strength","speed","endurance","experience","avatar"
+"1","1","Changuito","Saiyan","1","50","50","50","0",NULL
+"id","character_id","transformation_id"
+"id","name","date","winner_id"
+"id","tournament_id","character_id"
+"id","name","level_required"
+"id","name","email","password","avatar"
+"1","Axl Enrique Diaz Hernandez","axlenriquediazh22.ce84@dgeti.sems.gob.mx","Hola12345",
+"2","Pedro Ramirez Juarez","peter777@gmail.com","Pedro9999",
