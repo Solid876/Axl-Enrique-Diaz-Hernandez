@@ -1,0 +1,5 @@
+administrador
+admin123
+
+vendedor
+vendedor123
